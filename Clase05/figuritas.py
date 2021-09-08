@@ -40,8 +40,8 @@ def repetir_album(rep,fig):
     return promedio
 # %%
 
-prueba_5_15 = repetir_album(100,670)
-# prueba_5_15 = 4634.83
+# prueba_5_15 = repetir_album(100,670)
+# Resultado: prueba_5_15 = 4634.83
 # %%
 # Ej 5.16: paquetes
 def comprar_paquete(figus_total,figus_paquete):
@@ -73,5 +73,6 @@ def repetir_album_paq(rep,fig,paq):
     promedio = np.mean(resultados)
     return promedio
 # %%
-print("se necesitan un promedio de",repetir_album_paq(100,670,5)," paquetes para completar un album de 670 comprando de a 5 figuritas")
+# print("se necesitan un promedio de",repetir_album_paq(100,670,5)," paquetes para completar un album de 670 comprando de a 5 figuritas")
+# se necesitan un promedio de 936.03  paquetes para completar un album de 670 comprando de a 5 figuritas
 # %%
